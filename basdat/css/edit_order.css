@@ -1,0 +1,45 @@
+body {
+    background: rgba(0, 0, 0, 0.75) url('../img/home.jpg') center center fixed;
+    background-size: cover;
+    background-blend-mode: darken;
+    color: #fff; /* Text color */
+    font-family: Arial, sans-serif; /* Choose a suitable font */
+    margin: 150px;
+}
+
+form {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    text-align: center;
+    color: #fff;
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+    color: #333;
+}
+
+input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 16px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+input[type="submit"] {
+    background-color: rgb(27, 137, 181);
+    color: #fff;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: grey;
+}

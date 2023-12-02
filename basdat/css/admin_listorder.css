@@ -1,0 +1,110 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+body{
+    background: rgba(0, 0, 0, 0.6) url('../img/home.jpg') center center fixed;
+    background-size: cover;
+    background-blend-mode: darken;
+}
+
+.container{
+    margin: auto;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(15, 15, 15);
+}
+
+.container h1{
+    color: #fff;
+    font-weight: 700;
+    font-size: 40px;
+    cursor: pointer;
+    font-style: italic;
+}
+
+.navbar ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 0 20px;
+}
+
+.navbar ul li a{
+    padding: 9px;
+    text-decoration: none;
+    color: #fff;
+    font-size: 20px;
+    transition: 1s;
+}
+
+.navbar ul li a:hover{
+    background-color: orangered;
+}
+.content{
+    position: absolute;
+    color: #fff;
+    margin-top: 19%;
+    margin-left: 29%;
+    justify-content: center;
+   
+}
+
+.content1{
+    font-size: 50px;
+    justify-content: center;
+    margin-top: 1%;
+}
+
+.contents{
+    position: absolute;
+    color: #fff;
+    margin-top: 5%;
+    margin-left: -70%;
+}
+/* UBAH BAGIAN ATAS INI */
+.contents table{
+    padding: 90px;
+    margin-left: 45%;
+    width: 1000px;
+    height: 150px;
+    border: 100px;
+    outline: none;
+    justify-content: center;
+    background-color: rgba(27, 25, 25, 0.9);
+    padding: 10px;
+}
+th, td {
+    border: 0px solid #ddd;
+    padding: 10px;
+    text-align: left;
+}
+
+th {
+    background-color: #333; /* Warna latar belakang header */
+    color: #fff;
+}
+
+tr:nth-child(even) {
+    background-color: #444; /* Warna latar belakang baris genap */
+}
+
+tr:nth-child(odd) {
+    background-color: #555; /* Warna latar belakang baris ganjil */
+}
+
+button {
+    background-color: orange; /* Warna tombol */
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: orangered; /* Warna tombol saat dihover */
+}
+

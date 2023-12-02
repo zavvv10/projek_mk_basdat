@@ -1,0 +1,57 @@
+body {
+    background: rgba(0, 0, 0, 0.89) url('../img/hape1.jpg') center center fixed;
+    background-size: cover;
+    background-blend-mode: darken;
+    color: #fff; /* Warna teks putih */
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+}
+button {
+    background-color: orange; /* Warna tombol */
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+h2 {
+    color: white; /* Warna judul */
+    
+}
+table {
+    width: 69%;
+    margin: 20px auto; /* Menengahkan tabel */
+    border-collapse: collapse;
+    padding: 90px;
+}
+
+th, td {
+    border: 0px solid #ddd;
+    padding: 10px;
+    text-align: left;
+}
+
+th {
+    background-color: #333; /* Warna latar belakang header */
+    color: #fff;
+}
+
+tr:nth-child(even) {
+    background-color: #444; /* Warna latar belakang baris genap */
+}
+
+tr:nth-child(odd) {
+    background-color: #555; /* Warna latar belakang baris ganjil */
+}
+
+button {
+    background-color: orange; /* Warna tombol */
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: orangered; /* Warna tombol saat dihover */
+}

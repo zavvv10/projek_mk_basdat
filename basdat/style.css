@@ -1,0 +1,123 @@
+*{
+    margin:0;
+    padding:0;
+    font-family: 'poppins', sans-serif;
+}
+
+section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    width: 100%;
+    background: url('./img/hape1.jpg') no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.form-box{
+    position: relative;
+    width: 400px;
+    height: auto;
+    background: rgba(255, 255, 255, 0.7);
+    border-radius: 20px;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2{
+    font-size: 2rem;
+    color: #333;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.inputbox{
+    position: relative;
+    margin: 15px 0;
+}
+
+.inputbox ion-icon{
+    position: absolute;
+    left: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #333;
+}
+
+.inputbox input{
+    width: calc(100% - 40px);
+    height: 40px;
+    border: none;
+    border-bottom: 2px solid #333;
+    padding-left: 30px;
+    font-size: 1rem;
+}
+
+.inputbox label{
+    position: absolute;
+    top: 50%;
+    left: 30px;
+    transform: translateY(-50%);
+    font-size: 1rem;
+    color: #333;
+    pointer-events: none;
+    transition: .5s;
+}
+
+input:focus ~ label,
+input:valid ~ label{
+    top: -15px;
+}
+
+.forget{
+    margin: -15px 0 15px;
+    font-size: .9rem;
+    color: #333;
+    display: flex;
+    justify-content: space-between;
+}
+
+.forget label input{
+    margin-right: 3px;
+}
+
+.forget label a{
+    color: #333;
+    text-decoration: none;
+}
+
+.forget label a:hover{
+    text-decoration: underline;
+}
+
+button{
+    width: 100%;
+    height: 40px;
+    border-radius: 20px;
+    background: #333;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-size: 1rem;
+    font-weight: 600;
+    color: #fff;
+    margin-top: 20px;
+}
+
+.register p{
+    font-size: .9rem;
+    color: #333;
+}
+
+.register p a{
+    text-decoration: none;
+    color: #333;
+    font-weight: 600;
+    margin-left: 5px;
+}
+
+.register p a:hover{
+    text-decoration: underline;
+}

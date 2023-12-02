@@ -1,0 +1,66 @@
+body {
+    background: rgba(0, 0, 0, 0.76) url('../img/home.jpg') center center fixed;
+    background-size: cover;
+    background-blend-mode: darken;
+    color: #fff; /* Text color */
+    font-family: Arial, sans-serif; /* Choose a suitable font */
+    margin: 100px;
+}
+
+.form-box {
+    display: fixed;
+    justify-content: center;
+    align-items: center;
+    height: -5vh;
+    margin: 100px;
+}
+
+.content {
+    background-color: #333; /* Form background color */
+    padding: 15px;
+    border-radius: 40px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.92);
+    width: 680px;
+    height: 455px;
+    margin-left: 290px;
+    margin-top: 170px;
+}
+
+h1 {
+    text-align: center;
+}
+
+table {
+    width: 100%;
+}
+
+td {
+    padding: 10px;
+}
+
+button {
+    background-color: orangered; /* Button background color */
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: orange; /* Darker green on hover */
+}
+
+input {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    width: 100%;
+}
+
+/* Center the form horizontally */
+form {
+    display: flex;
+    justify-content: center;
+}
